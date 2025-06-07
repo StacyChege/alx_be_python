@@ -1,7 +1,7 @@
 #Empty list
 #Function to add, remove & display the current list.
 def display_menu():
-    print("\nShoppping List Manager")
+    print("Shoppping List Manager")
     print("1. Add Item")
     print("3. Viw List")
     print("4. Exit")
@@ -37,4 +37,7 @@ def main():
             break #Remember to break
         else:
             print("Invalid choice. Please try again.") #Ensure script can handle invalid menu choices
+
+if __name__ == "__main__":
+    main()
 
