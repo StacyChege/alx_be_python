@@ -10,7 +10,7 @@ class Book:
 
     def __str__(self):
         """User-friendly string representation"""
-        return f"'{self.title}' by {self.author}, published in {self.year}"
+        return f"{self.title} by {self.author}, published in {self.year}"
     
     def __repr__(self):
         """Official representation of the Book instance"""
