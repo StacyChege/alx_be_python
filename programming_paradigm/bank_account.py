@@ -13,4 +13,4 @@ class BankAccount:
             raise ValueError("Insufficient funds.")
 
         def display_balance(self):
-            return f"Current balance: ${self.account_balance:.2f}"       
+            return ("Current balance: self.account_balance")      
