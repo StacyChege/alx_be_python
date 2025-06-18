@@ -18,8 +18,8 @@ class TestSimpleCalculator(unittest.TestCase):
 
     def test_multiplication(self):
         """Test the multiplication method."""
-        self.assertEqual(self.calc.multiplication(2, 3), 6)
-        self.assertEqual(self.calc.multiplication(-1, 5), -5)
+        self.assertEqual(self.calc.multiply(2, 3), 6)
+        self.assertEqual(self.calc.multiply(-1, 5), -5)
 
     def test_division(self):
         """Test the division method."""
