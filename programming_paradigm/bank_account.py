@@ -9,8 +9,10 @@ class BankAccount:
     def withdraw(self, amount):
         if 0 < amount <= self.account_balance:
             self.account_balance -= amount
+            return True
         else:
-            raise ValueError("Insufficient funds.")
+            return False  # ✅ Just return False instead of raising an error
+
 
     def display_balance(self):
         print("Current Balance:", self.account_balance)      
