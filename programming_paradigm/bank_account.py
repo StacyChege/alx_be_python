@@ -1,6 +1,6 @@
 class BankAccount:
     def __init__(self, account_balance=0):
-        self.account_balance = initial_balance
+        self.account_balance = account_balance
 
     def deposit(self, amount):
         if amount > 0:
@@ -12,5 +12,5 @@ class BankAccount:
         else:
             raise ValueError("Insufficient funds.")
 
-        def display_balance(self):
-            return ("Current balance: self.account_balance")      
+    def display_balance(self):
+            print("Current balance: self.account_balance" )      
