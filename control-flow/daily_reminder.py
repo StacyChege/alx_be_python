@@ -12,8 +12,13 @@ match priority:
     case _:
         print(f" '{task}' has an unrecognized priority level.")
 
-        if task_bound == "yes":
-            print(f"Don't forget to complete {task} on time!")
-        else:
-            print(f"{task} . Consider completing it when you have free time.")
+if task_bound == "yes":
+    print(f"Don't forget to complete {task} on time!")
+else:
+    print(f"{task} . Consider completing it when you have free time.")
+
+if task_bound == "yes":
+    print(f"Reminder: {task}")
+else:
+    print(f"Note: {task}")
             
