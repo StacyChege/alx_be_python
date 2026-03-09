@@ -1,4 +1,4 @@
-weather = input("What is the weather like today? (sunny/rainy/cold): ")
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
 #Provide clothig advice based on the weather
 if weather == "sunny":
